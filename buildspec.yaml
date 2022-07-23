@@ -1,13 +1,9 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      runtime-versions:
-        java: corretto11
+
   build:
     commands:
-      - java -version
       - echo Build started on `date`
       - echo Building the Docker image...
       - mvn clean package
