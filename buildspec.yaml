@@ -16,6 +16,6 @@ phases:
 artifacts:
   files:
    - imagedefinitions.json
-   - target/menu-service.jar
+   - build/libs/menu-service.jar
    - .ebextensions/**/*
 discard-paths: yes
