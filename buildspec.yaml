@@ -11,10 +11,10 @@ phases:
     commands:
       - echo Build completed on `date`
 #      - mvn package
-#      - mv target/menu-service.jar menu-service.jar
+      - mv target/menu-service.jar menu-service.jar
    
 artifacts:
   files:
    - target/imagedefinitions.json
-   - target/menu-service.jar
+   - menu-service.jar
 discard-paths: yes

@@ -1,1 +1,1 @@
-web: java -jar target/menu-service.jar
+web: java -jar menu-service.jar
