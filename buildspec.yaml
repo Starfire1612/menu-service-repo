@@ -19,6 +19,6 @@ phases:
    
 artifacts:
   files:
-   - imagedefinitions.json
+   - target/imagedefinitions.json
    - target/menu-service.jar
 discard-paths: yes
