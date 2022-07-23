@@ -11,11 +11,11 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-      - mv target/menu-service.jar menu-service.jar
+#      - mv target/menu-service.jar menu-service.jar
    
 artifacts:
   files:
    - imagedefinitions.json
-   - menu-service.jar
+   - target/menu-service.jar
    - .ebextensions/**/*
 discard-paths: yes
